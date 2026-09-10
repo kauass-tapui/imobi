@@ -1,8 +1,85 @@
 <!doctype html>
-<html lang="pt-BR"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>MOBI | Gestão Imobiliária</title><link rel="stylesheet" href="landing.css" /><link rel="stylesheet" href="building.css" /></head><body>
-<main class="landing"><header class="header">
-<a href="telainicial.html" class="mini-logo" aria-label="MOBI - início"><svg viewBox="0 0 250 150" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linejoin="miter"><path d="M10 128h18V29l42-25v38l42 28v58h16" stroke-width="3.5"/><path d="M31 31v97M70 42v86M76 13l29 18v27L76 40z" stroke-width="1.3"/><path d="M78 43l31 19" stroke-width="3.5"/><path d="M46 128v-20h22v20M51 128v-16h12v16" stroke-width="3"/></g><g fill="currentColor"><rect x="43" y="58" width="5" height="5"/><rect x="60" y="58" width="5" height="5"/><rect x="43" y="74" width="5" height="5"/><rect x="60" y="74" width="5" height="5"/><rect x="43" y="90" width="5" height="5"/><rect x="60" y="90" width="5" height="5"/><text x="128" y="60" class="logo-tag">G E S T Ã O&nbsp; I M O B I L I Á R I A</text><path d="M158 70h60" stroke-width="1"/><text x="127" y="128" class="logo-word">MOBI</text></g></svg></a>
-<nav aria-label="Navegação principal"><a href="#solucoes">Soluções</a><i></i><a href="cadastro.html">Usuários</a><i></i><a href="#planos">Planos</a><i></i><a href="login.html">Login</a><a class="request" href="login.html">Solicitar demonstração</a></nav>
-</header><section class="hero" id="solucoes"><div class="hero-copy"><p class="eyebrow">Simplifique a gestão,</p><h1><strong>POTENCIALIZE</strong><span>SEUS RESULTADOS</span></h1><div class="divider"></div><p class="description">Plataforma completa para gestão imobiliária,<br />contratos, locações e indicadores de<br />desempenho.</p><div class="actions"><a class="primary" href="login.html">Demonstração <b>→</b></a><a class="secondary" href="#planos">Conheça a plataforma</a></div></div>
-<div class="building-art" aria-hidden="true"><svg viewBox="0 0 760 650"><defs><linearGradient id="glow" x1="0" x2="1"><stop stop-color="#7736cf" stop-opacity=".35"/><stop offset=".72" stop-color="#a34eff"/><stop offset="1" stop-color="#4e208a" stop-opacity=".1"/></linearGradient></defs><g fill="none" stroke="url(#glow)" stroke-width="2"><path d="M64 575 395 420 708 571M44 599l349-109 354 112M85 620l307-67 306 69M138 636l255-34 252 35M395 34 583 170v398L396 642 266 567V145z" stroke-width="3"/><path d="M395 34v608M266 145l129 104 188-79M266 199l129 102 188-74M266 255l129 95 188-67M266 309l129 90 188-58M266 365l129 80 188-49M266 418l129 72 188-40M266 472l129 61 188-31M266 526l129 49 188-20"/><path d="M302 121v453M337 95v504M455 79v518M500 112v465M540 141v429M583 170 708 272M583 226 686 307M583 283l82 33M583 341l63 26M583 398l44 18M583 455l26 10"/><path d="M176 542 265 505M144 567l122-45M215 594l51-16M395 490l-129 77M395 552l-129 49"/></g><g fill="#9547ef"><path d="m458 216 14 8v27l-14-8zM483 231l14 8v27l-14-8zM458 282l14 8v27l-14-8zM483 298l14 8v27l-14-8zM458 350l14 8v27l-14-8zM483 364l14 8v27l-14-8zM458 417l14 8v27l-14-8zM483 429l14 8v27l-14-8z"/><path d="m340 256 24-13v31l-24 13zM340 310l24-12v30l-24 13zM340 367l24-11v29l-24 12z"/></g></svg></div></section><section id="planos" class="planos"><h2>Planos pensados para sua imobiliária</h2></section></main>
-</body></html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MOBI | Gestão Imobiliária</title>
+  <link rel="stylesheet" href="landing.css" />
+  <script src="theme.js"></script>
+</head>
+<body>
+  <main class="landing">
+    <header class="header">
+      <a href="telainicial.html" class="mini-logo" aria-label="MOBI - início">
+        <svg viewBox="0 0 250 150" aria-hidden="true">
+          <g fill="none" stroke="currentColor" stroke-linejoin="miter">
+            <path d="M10 128h18V69l45-26v42l45 27v116h17" stroke-width="3.5"/>
+            <path d="M37.5 75v53M82.5 87v41" stroke-width="2.5"/>
+            <path d="M92 50l32 18v28l-32-19z" stroke-width="2.5"/>
+          </g>
+          <g fill="currentColor">
+            <rect x="50" y="95" width="5" height="5"/>
+            <rect x="69" y="95" width="5" height="5"/>
+            <rect x="50" y="113" width="5" height="5"/>
+            <rect x="69" y="113" width="5" height="5"/>
+          </g>
+        </svg>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#solucoes">Soluções</a>
+        <i></i>
+        <a href="cadastro.html">Usuários</a>
+        <i></i>
+        <a href="#planos">Planos</a>
+        <i></i>
+        <a href="login.html">Login</a>
+        <button 
+          id="theme-toggle" 
+          class="theme-toggle"
+          aria-label="Mudar para modo escuro"
+          aria-pressed="false"
+          onclick="toggleTheme()"
+          title="Alternar tema"
+        >
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <section class="hero" id="solucoes">
+      <div class="hero-copy">
+        <p class="eyebrow">Simplifique a gestão,</p>
+        <h1><strong>POTENCIALIZE</strong><span> SEUS RESULTADOS</span></h1>
+        <div class="divider"></div>
+        <p>Plataforma inteligente para gerenciar suas propriedades imobiliárias com eficiência.</p>
+      </div>
+      <div class="building-art" aria-hidden="true">
+        <svg viewBox="0 0 760 650" role="img">
+          <defs>
+            <linearGradient id="glow" x1="0" x2="1">
+              <stop stop-color="#7736cf" stop-opacity=".35"/>
+              <stop offset=".72" stop-color="#a34dc9" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <path d="M100 600h500V150l100-80v120l100 60v350h80" fill="none" stroke="currentColor" stroke-width="8" stroke-linejoin="miter"/>
+          <rect x="150" y="200" width="80" height="80" fill="url(#glow)" opacity=".5"/>
+          <rect x="350" y="250" width="80" height="80" fill="url(#glow)" opacity=".3"/>
+        </svg>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
