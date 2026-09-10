@@ -1,0 +1,8 @@
+.building-art {
+  width: min(60vw, 812px);
+  right: 0;
+  bottom: -22px;
+  background: url("predio-cortado.png") right bottom / contain no-repeat;
+}
+
+.building-art svg { visibility: hidden; }
